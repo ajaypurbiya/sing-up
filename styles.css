@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+a{
+    text-decoration: none;
+}
+.header-container{
+    border-bottom: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.right-container{
+    display: flex;
+    gap: 25px;
+}
+
+.login-form-container{
+    width: 55%;
+    margin: 100px auto;
+}
+
+.login-form-container input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+input:focus{
+    outline: none;
+}
+
+.error-message{
+    color:#FF4F4F;
+    margin: 20px 0;
+}
+
+.success-message{
+    color: #7ECD71;
+}
+
+#signup-btn{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 40px;
+}
+
+
+.profile-container{
+    width: 55%;
+    margin: 100px auto;
+}
+
+.profile-container p{
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+#logout-btn{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
